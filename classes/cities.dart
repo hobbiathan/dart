@@ -14,7 +14,7 @@ class City {
   }
 
   void genName() {
-    print("City: 0");
+    name = "City 0";
   }
 
   void getName() {
