@@ -10,11 +10,11 @@ class City {
   }
 
   void popSize() {
-    print(population);
+    print("City Population: " + population.toString());
   }
 
   void genName() {
-    print("City: " + population.toString());
+    print("City: 0");
   }
 
   void getName() {
