@@ -1,6 +1,7 @@
 import 'dart:math';
 
 class City {
+  String name = "";
   Random random = new Random();
   int population = 0;
 
@@ -11,6 +12,14 @@ class City {
   void popSize() {
     print(population);
   }
+
+  void genName() {
+    print("City: " + population.toString());
+  }
+
+  void getName() {
+    print(name);
+  }
 }
 
 void main() {
@@ -18,7 +27,13 @@ void main() {
 
   city.popSize();
 
+  city.getName();
+
   city.genPop();
+
+  city.genName();
+
+  city.getName();
 
   city.popSize();
 }
